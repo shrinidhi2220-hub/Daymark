@@ -185,3 +185,4 @@ npm start
 1. **Email Delivery**: In this local development environment, outgoing verification and reset emails are simulated. Secure single-use tokens are generated in the database and surfaced for development testing in local responses/logs. For production, connect an SMTP provider (e.g., Postmark, Resend, AWS SES) in `src/app/api/auth/`.
 2. **File Storage**: The resume and cover letter fields currently support external secure URLs. For direct file binary uploads, integrate S3-compatible object storage (e.g., AWS S3, Cloudflare R2) using presigned upload URLs.
 3. **Push Notifications**: Browser notifications are fully functional for active browser sessions. For guaranteed offline push notifications when the browser is closed, integrate a Web Push VAPID service worker or mobile push notification service.
+

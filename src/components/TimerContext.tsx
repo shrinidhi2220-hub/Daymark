@@ -184,3 +184,4 @@ export function TimerProvider({ children }: { children: React.ReactNode }) {
 export function useTimer() {
   return useContext(TimerContext);
 }
+

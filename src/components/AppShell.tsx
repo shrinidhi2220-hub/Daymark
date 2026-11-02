@@ -21,3 +21,4 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return <Navigation>{children}</Navigation>;
 }
+
